@@ -43,8 +43,14 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # RSpec_Add
-  gem 'rspec-rails'
-  gem 'factory_girl_rails', "~> 4.4.1"
+  # gem 'rspec-rails'
+  # gem 'factory_girl_rails', "~> 4.4.1"
+
+  # RSpec_add,
+  gem 'rspec-rails', '~> 3.5'
+  gem 'rails-controller-testing'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'faker'
 
 end
 
