@@ -4,7 +4,7 @@ class TweetsController < ApplicationController
 
   # before_action :move_to_index, except: [:index, :show]
 
-  before_action :move_to_index, except: :index
+  # before_action :move_to_index, except: :index
 
     # indexアクションが実行される時以外に、hogeが実行される。
 
