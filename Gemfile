@@ -91,3 +91,8 @@ gem 'kaminari'
 
 # deviseは、ログイン機能を簡単に作成
 gem 'devise'
+
+# Capybaraを導入
+group :test, :development do
+  gem 'capybara', '>= 2.15'
+end
